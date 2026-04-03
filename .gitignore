@@ -22,3 +22,19 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Tauri / build output
+dist/
+src-tauri/target/
+
+# Optional large local assets
+backend/assets/checkpoints/
+backend/assets/samples/
